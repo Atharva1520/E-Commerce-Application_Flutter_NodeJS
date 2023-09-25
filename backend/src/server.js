@@ -11,7 +11,7 @@ app.use(helmet());
 app.use(morgan('dev'));
 app.use(cors());
 
-mongoose.connect("mongodb+srv://atharvapatil6848:BlvqbunsKgmQLeO1@cluster0.gdk764n.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (error) => {
